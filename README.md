@@ -12,7 +12,7 @@ The second challenge wanted me to call an API with one query-string parameter ca
 
 # Challenge # 3
 
-The third challenge wanted me to click on a button to get a secret code. The issue was that when it went to view a secret code, it would automatically reload to a page saying along the lines that it is unable to access and to retry. After looking at this, I realized that the issue was that it would automatically reload. The solution for this issue is to stop it from automatically reloading. Below are the steps I used to reload
+The third challenge wanted me to click on a button to get a secret code. The issue was that when it went to view a secret code, it would automatically reload to a page saying along the lines that it is unable to access and to retry. After looking at this, I realized that the issue was that it would automatically reload. The solution for this issue is to stop it from automatically reloading. Below are the steps I used so it will not automatically reload:
 
 1. Go to Settings > Internet Options
 2. Go to Security
